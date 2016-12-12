@@ -1,0 +1,281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.bigmenu
+{
+	width: 100%;
+	height: 50px;
+	background-image: url("bg.png");
+	position: fixed;
+	z-index: 100;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.menu
+{
+	background-image: url("bg.png");
+	width: 70%;
+	height: 50px;
+	margin: auto;
+}
+.picture
+{
+	width: 100%;
+	height: 500px;
+	margin: auto;
+	background-image: url("Lego-spiderman.jpg");
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search
+{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.settable
+{
+	width: 100%;
+	border-style: solid;
+	border-width: 1px 1px 0 1px;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	
+}
+.setlist li
+{
+	width: 100%;
+	height: 30px;
+	font-family: "roboto";
+	padding: 12px 0 0 8px;
+	border-style: solid;
+	border-color: #E2E7A8;
+	border-width: 0 0 1px 0;
+}
+.instructions
+{
+	width: 45%;
+	float: left;
+}
+.stats
+{
+	width: 45%;
+	float: right;
+}
+.about
+{
+	width: 60%;
+	margin: 100px auto 0 auto;
+	text-align: center;
+}
+.persons
+{
+	width: 20%;
+	float: left;
+	margin-top: 50px;
+	text-align: center;
+}
+.persons img
+{
+	width: 90%;
+	height: 90%;
+}
+.containerdata
+{
+	padding: 0 100px 50px 100px;
+}
+.container
+{
+	width: 70%;
+	background-image: url("containerbg.png");
+	margin: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.footer
+{
+	height: 30px;
+	width: 70%;
+	background-image: url("bg.png");
+	margin-top: 22px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "open sans";
+	font-size: 12px;
+}
+.footerleft
+{
+	height: 100%;
+	width: 25%;
+	float: left;
+	color: #009393;
+}
+.footercenter
+{
+	height: 100%;
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.footerright
+{
+	height: 100%;
+	width: 25%;
+	float: left;
+	text-align: right;
+	color: #009393;
+}
+.afooter
+{
+padding: 0 25px 0 25px;
+}
+body
+{
+	background-image: url("bg.png");
+	font-weight: 300;
+}
+.aheader
+{
+	font-family: "Roboto";
+	font-size: 24px;
+	color: #009393;
+	float: right;
+	padding-top: 15px;
+	padding-left: 75px;
+}
+.menu img
+{
+	height:40px;
+	position: relative;
+	top: 6px;
+}
+h1
+{
+	font-family: "roboto";
+	color: #009393;
+	font-size: 40px;
+	font-weight: 100;
+	padding: 30px;
+}
+.searchbox
+{
+	width: 500px;
+	height: 50px;
+	border-radius: 7px;
+	border-style: solid;
+	border-color: #E2E7A8;
+	border-width: 1px;
+	font-family: "roboto";
+	font-size: 18px;
+	padding-left: 15px;
+	color: #009393;
+}
+.submit
+{
+	width: 115px;
+	font-family: "roboto";
+	font-size: 20px;
+	color: white;
+	background-color: #009393;
+	border-style: none;
+	border-radius: 7px;
+	padding: 5px 10px;
+	position: relative;
+	top: 1px;
+	margin-left: 8px;
+}
+
+h2
+{
+	font-family: "roboto";
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+p
+{
+	font-family: "open sans";
+	font-size: 14px;
+	line-height: 1.428;
+}
+
+table
+{
+	width: 100%;
+	font-family: "roboto";
+	
+}
+
+th
+{
+	background-color: #009393;
+	height: 30px;
+	color: white;
+	padding-top: 7px;
+	text-align: left;
+	padding-left: 11px;
+}
+
+td
+{
+	padding-left: 11px;
+	border-top: 1px solid #ddd;
+	height: 30px;
+	padding-top: 7px;
+}
+
+tr:nth-child(even)
+{
+	background-image:url("bg.png");
+}
+
+.clearfix
+{
+	clear:both;	
+}
